@@ -69,7 +69,7 @@ pub struct Keyboard {
 impl Keyboard {
     pub fn new() -> Option<Keyboard> {
         Some(Keyboard {
-            is_main_thread: true,
+            is_main_thread: false,
             dead_state: 0,
             shift: false,
             caps_lock: false,
